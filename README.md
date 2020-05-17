@@ -18,6 +18,6 @@
 
 ---
 
-##  Contribuidores
+##  Dev's 👨
 - Samuel W. (Mestre Samuca!)
 - Julien C.
