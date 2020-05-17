@@ -1,4 +1,7 @@
 # mo-net-email
+<p align="left">
+- Projeto criado com o proposito de estudo e como resultado o desenvolvimento de um app para monitorar a qualidade da internet na maquina local...
+</p>
 
 ## 🔥 Instalação e execução
 
@@ -11,3 +14,10 @@
 ##  Redis (DOcker)
   Rodar o comando abaixo para ultizar o Redis na porta 6379 usando o label alpine
   - `cmd: docker run --name redis -p 6379:6379 -d -t redis:alpine`
+
+
+---
+
+##  Contribuidores
+- Samuel W. (Mestre Samuca!)
+- Julien C.
