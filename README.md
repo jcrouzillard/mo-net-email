@@ -6,7 +6,7 @@
 ## 🔥 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta `cd masterclass-nodejs-background-jobs`;
+2. Entre na pasta `cd mo-net-email`;
 3. Rode `yarn` para instalar as dependências;
 4. Copie o arquivo `.env.example` e crie um arquivo `.env` com as credenciais de email e do Redis;
 7. Rode `yarn dev` para iniciar o servidor.
