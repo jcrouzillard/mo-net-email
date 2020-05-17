@@ -1,4 +1,4 @@
-import Mail from '../lib/Mail'
+import Queue from '../lib/Queue'
 
 export default {
     async store(req, res) {
@@ -10,15 +10,7 @@ export default {
             password,
         };
 
-        console.log();
-
-        await Mail.sendMail({
-            from: 'Queue Test <queue@queuetest.com.br>',
-            to: `${name} <${email}>`,
-            subject: 'Cadastro de usuario',
-            html: "Vamo lá campeão..."
-
-        })
+            await Queue.add({ user });
 
         return res.json(user);
     }
