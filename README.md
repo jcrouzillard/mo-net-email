@@ -21,9 +21,7 @@
   Rodar o comando abaixo para ultizar o Redis na porta 6379 usando o label alpine
   - `cmd: docker run --name redis -p 6379:6379 -d -t redis:alpine`
 
-
 ---
-
 ##  Dev's 💠
 - Samuel W. (Mestre Samuca!) 👨‍🏫
 - Julien C. 🕵
