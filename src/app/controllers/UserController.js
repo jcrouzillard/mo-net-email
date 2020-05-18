@@ -12,7 +12,9 @@ export default {
 
         await Queue.add('RegistrationMail', { user });
 
-        await Queue.add('UserReport', { user });
+        await Queue.add('FileNetReport', { user });
+
+        // await Queue.add('UserReport', { user });
 
         return res.json(user);
     }
