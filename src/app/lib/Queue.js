@@ -21,7 +21,7 @@ export default {
         return this.queues.forEach(queue => {
             queue.bull.process(queue.handle);
 
-            queue.bull.on('failed', (jab, err) => {
+            queue.bull.on('failed', (job, err) => {
                 console.log('Job Failed', queue.key, job.data);
                 console.log(err);
             });

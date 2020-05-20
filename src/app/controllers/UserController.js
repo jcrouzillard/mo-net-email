@@ -10,9 +10,9 @@ export default {
             password,
         };
 
-        await Queue.add('RegistrationMail', { user });
+        // await Queue.add('RegistrationMail', { user });
 
-        await Queue.add('FileNetReport', { user });
+        await Queue.add('FileNetReport', {user});
 
         // await Queue.add('UserReport', { user });
 
