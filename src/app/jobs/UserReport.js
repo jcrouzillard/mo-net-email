@@ -8,7 +8,7 @@ export default {
     async handle({ data }) {
         const { user } = data;
 
-        console.log('UserReport', user);
+        // console.log('UserReport', user);
         
     }
 }

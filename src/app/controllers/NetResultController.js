@@ -8,11 +8,9 @@ export default {
             action,
         };
 
-        // await Queue.add('RegistrationMail', { user });
 
         await Queue.add('FileNetReport', {data});
 
-        // await Queue.add('UserReport', { user });
 
         return res.json(data);
     }
