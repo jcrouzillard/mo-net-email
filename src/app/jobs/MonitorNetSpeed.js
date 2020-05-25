@@ -13,13 +13,8 @@ export default {
     },
     async handle({ data }) {
 
-        console.log(speedTest.getNetDataAverage())
-
-        // const { speedTest } = require('record-wifi-speed')
-        const wifiName = netConfig.wifi;
-        const resultsDirectory = 'queue';
-        // netConfig.savePath
-        // speedTest({ wifiName, resultsDirectory })
+        console.log(speedTest.getNetworkDownloadSpeed());
+        console.log(speedTest.getNetworkUploadSpeed());
 
         return data;
     }
