@@ -7,7 +7,7 @@
 - `redis`
 - `nodemailer`
 - `bull (bullboards)`
-
+:smile:
 
 ## 🔥 Instalação e execução 
 
