@@ -1,4 +1,4 @@
-# mo-net-email
+# mo-net-email v1
 - Projeto criado com o proposito de estudo e como resultado o desenvolvimento de um app para monitorar a qualidade da internet na maquina local(...)
   - Utilizamos o projeto https://github.com/Rocketseat/masterclass-nodejs-background-jobs como base para os estudos.
 
